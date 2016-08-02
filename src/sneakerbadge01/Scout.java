@@ -5,6 +5,8 @@
  */
 package sneakerbadge01;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author pears
@@ -14,6 +16,7 @@ public class Scout {
     private String lname;
     private String rank;
     private String troop;
+    private ArrayList<MeritBadge> meritBadges = new ArrayList<>();
     
     public Scout(String fname, String lname) {
         this.fname = fname;
